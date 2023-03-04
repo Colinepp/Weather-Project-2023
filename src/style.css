@@ -1,0 +1,81 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #5a6275;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+  padding: 50px;
+  line-height: 18px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 60px;
+}
+h2 #todayTemp {
+  font-size: 50px;
+}
+h2 #degreeSymbol {
+  font-size: 35px;
+}
+h2 span {
+  font-size: 15px;
+}
+h2 button {
+  background-color: transparent;
+  color: #5a6275;
+  border-color: transparent;
+}
+h2 button:hover {
+  cursor: pointer;
+}
+#todayWeatherDesc {
+  font-size: 30px;
+}
+.week {
+  text-align: center;
+  padding: 50px;
+}
+.weekdays {
+  word-spacing: 18px;
+}
+.weekweather {
+  font-size: 40px;
+}
+
+form {
+  padding: 50px;
+  border-radius: 50px;
+}
+.searchform {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+#submitButton {
+  display: block;
+  margin: 0 auto;
+  background-color: #5a6275;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 200ms ease-in-out;
+}
+#submitButton:hover {
+  background: #fff;
+  color: #5a6275;
+  cursor: pointer;
+}
+#currentLocationButton {
+  display: block;
+  margin: 0 auto;
+  background-color: #5a6275;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 200ms ease-in-out;
+}
+#currentLocationButton:hover {
+  background: #fff;
+  color: #5a6275;
+  cursor: pointer;
+}
