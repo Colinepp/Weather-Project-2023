@@ -79,3 +79,12 @@ form {
   color: #5a6275;
   cursor: pointer;
 }
+#gitHub {
+  color: #5a6275;
+  text-align: center;
+}
+#gitHub:hover {
+  color: #fff;
+  background-color: #5a6275;
+  cursor: pointer;
+}
