@@ -81,10 +81,8 @@ form {
 }
 #gitHub {
   color: #5a6275;
-  text-align: center;
+  margin: 510px;
 }
 #gitHub:hover {
-  color: #fff;
-  background-color: #5a6275;
   cursor: pointer;
 }
